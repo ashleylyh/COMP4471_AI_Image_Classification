@@ -1,0 +1,14 @@
+
+__pycache__
+.DS_Store
+dataset/
+ela_dataset/
+ela_testing/
+ela_testing_result/
+testing_result/
+training_result/
+model_weight/
+
+
+
+
