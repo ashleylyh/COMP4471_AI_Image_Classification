@@ -82,9 +82,9 @@ def plot_confusion_matrix(ax, csv_file, labels, model_name):
     # Plotting the confusion matrix
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', ax=ax,
                 xticklabels=labels, yticklabels=labels)
-    ax.set_ylabel('True label', fontsize=12)
-    ax.set_xlabel('Predicted label', fontsize=12)
-    ax.set_title(f'Confusion Matrix: {model_name}', fontsize=12)
+    ax.set_ylabel('True label', fontsize=10)
+    ax.set_xlabel('Predicted label', fontsize=10)
+    ax.set_title(f'{model_name}', fontsize=12)
 
 
 def plot_model_metrics(metrics_df):

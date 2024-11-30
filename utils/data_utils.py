@@ -35,9 +35,9 @@ def save_metrics(model_name, train_losses, val_accuracies, train_acc):
 def save_training_times_to_csv(filename):
     # Data preparation
     data = {
-        'Model': ['ResNet', 'VGG', 'EfficientNet', 'MobileNet', 'ViT', 'CNN', 'ELA+CNN', 'ELA+MobileNet', 'ELA+EfficientNet'],
-        'Adam_Time': [1676.2, 2509.4, 1837.0, 640.5, 3511.4, 711.3, 690.8, 727.6, 2126.3],
-        'SGD_Time': [1645.6, 2533.0, 1814.6, 644.8, 4710.10, 668.8, 674.6, 691.6, 1900.7]
+        'Model': ['VGG', 'ResNet',  'MobileNet', 'EfficientNet','ViT',  'ELA+Mobile', 'ELA+Eff'],
+        'Adam_Time': [2509.4, 1676.2, 640.5, 1837.0, 3511.4, 727.6, 2126.3],
+        'SGD_Time': [2533.0, 1645.6, 644.8, 1814.6, 4710.10, 691.6, 1900.7]
     }
     
     # Create a DataFrame

@@ -8,6 +8,8 @@ ela_testing_result/
 testing_result/
 training_result/
 model_weight/
+visualize.ipynb
+model_compare_full.ipynb
 
 
 
